@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grădina Noastră — Un Izvor de Idei</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────────── -->
+  <nav id="nav">
+    <div class="nav-logo">Grădina <em>Noastră</em></div>
+    <ul class="nav-links">
+      <li><a href="#gradina">Grădina</a></li>
+      <li><a href="#copii">Copii &amp; Natură</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#gradina"  onclick="toggleMenu()">Grădina</a>
+    <a href="#copii"    onclick="toggleMenu()">Copii &amp; Natură</a>
+    <a href="#galerie"  onclick="toggleMenu()">Galerie</a>
+    <a href="#contact"  onclick="toggleMenu()">Contact</a>
+  </div>
+
+  <!-- ─── HERO ──────────────────────────────────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Refugiu · Natură · Permacultură</p>
+      <h1 class="hero-title">O grădină,<br><em>un izvor de idei</em></h1>
+      <p class="hero-text">
+        Există un loc unde timpul se mișcă altfel — unde mâinile ating pământul, iar mintea se eliberează
+        de ecranele și zgomotul zilei. Grădina noastră este acel loc: un refugiu viu, care ne ancorează
+        în realitate și ne amintește cine suntem cu adevărat.
+      </p>
+      <a href="#gradina" class="btn">Descoperă grădina</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Derulează</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── PSYCH STRIP ───────────────────────────────────────────── -->
+  <div class="psych-strip" id="copii">
+    <div class="psych-inner">
+
+      <div class="psych-text reveal">
+        <p class="section-label">Psihologia naturii</p>
+        <h2 class="section-title">De ce au nevoie <em>copiii</em> de grădină</h2>
+        <div class="divider light"></div>
+        <p class="section-body">
+          Studiile în psihologia dezvoltării arată că activitățile în natură reduc anxietatea, îmbunătățesc
+          concentrarea și stimulează creativitatea copiilor. Când un copil plantează o sămânță, el nu face
+          doar grădinărit — el învață răbdarea, responsabilitatea și miracolul vieții.
+        </p>
+        <p class="section-body" style="margin-top:1.1rem">
+          Contactul cu pământul, plantele și insectele activează simțurile, construiește reziliența
+          emoțională și oferă un contrapunct sănătos față de lumea digitală în care trăim tot mai mult.
+        </p>
+      </div>
+
+      <div class="psych-cards reveal" style="transition-delay:0.2s">
+        <div class="psych-card">
+          <div class="psych-card-icon">🧠</div>
+          <div class="psych-card-title">Reducerea stresului</div>
+          <div class="psych-card-text">Natura scade nivelul cortizolului și aduce calm autentic, imposibil de replicat pe ecran.</div>
+        </div>
+        <div class="psych-card">
+          <div class="psych-card-icon">🌱</div>
+          <div class="psych-card-title">Responsabilitate</div>
+          <div class="psych-card-text">Îngrijind o plantă, copiii înțeleg că acțiunile lor au consecințe reale și frumoase.</div>
+        </div>
+        <div class="psych-card">
+          <div class="psych-card-icon">🔍</div>
+          <div class="psych-card-title">Curiozitate vie</div>
+          <div class="psych-card-text">Fiecare insectă, frunză și semință deschide întrebări și observații despre lumea reală.</div>
+        </div>
+        <div class="psych-card">
+          <div class="psych-card-icon">🤝</div>
+          <div class="psych-card-title">Conexiune</div>
+          <div class="psych-card-text">Grădinăritul împreună construiește relații profunde între copii, părinți și natură.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ─── GARDEN SECTION ────────────────────────────────────────── -->
+  <section id="gradina">
+    <div class="garden-inner">
+
+      <div class="garden-img reveal">
+        <img src="images/poza2.jpeg" alt="Grădina noastră — peisaj natural de munte" />
+        <div class="garden-badge">🌿 Permacultură naturală</div>
+      </div>
+
+      <div class="garden-text reveal" style="transition-delay:0.18s">
+        <p class="section-label">Grădina noastră</p>
+        <h2 class="section-title">Un refugiu <em>viu</em> în inima naturii</h2>
+        <div class="divider"></div>
+        <p class="section-body">
+          Aceasta este grădina noastră — un loc în care copiii au mână liberă să sape, să planteze și
+          să descopere. Am amenajat o zonă specială dedicată lor, concepută în spirit de permacultură:
+          fiecare element are un rost, totul se susține reciproc, iar natura preia controlul.
+        </p>
+        <p class="section-body" style="margin-top:1.2rem">
+          Plantele noastre cresc liber, în ritmul lor firesc — fără pesticide, fără chimicale, fără
+          grabe artificiale. Mâncăm ceea ce creștem și creștem ceea ce respectăm.
+        </p>
+        <div class="tags">
+          <span class="tag">Fără pesticide</span>
+          <span class="tag">Permacultură</span>
+          <span class="tag">Plantat cu copiii</span>
+          <span class="tag">100% natural</span>
+          <span class="tag">Sol viu</span>
+          <span class="tag">Biodiversitate</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── GALLERY ───────────────────────────────────────────────── -->
+  <section class="gallery-section" id="galerie">
+    <div class="gallery-head reveal">
+      <div>
+        <p class="section-label">Momente din grădină</p>
+        <h2 class="section-title">Galerie <em>naturală</em></h2>
+      </div>
+      <p style="font-size:0.82rem;color:var(--text-lt);font-weight:300;max-width:260px;text-align:right;line-height:1.7">
+        Click pe imagine pentru a o vedea mai mare
+      </p>
+    </div>
+
+    <div class="gallery-grid reveal" style="transition-delay:0.1s">
+
+      <div class="gallery-item g-large" onclick="openLightbox('images/poza1.jpeg')">
+        <img src="images/poza1.jpeg" alt="Casele și peisajul de munte" />
+        <div class="gallery-caption">Satul nostru în lumina amurgului</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('images/poza2.jpeg')">
+        <img src="images/poza2.jpeg" alt="Grădina naturală cu pomi" />
+        <div class="gallery-caption">Livada în stil permacultură</div>
+      </div>
+
+      <div class="gallery-item" onclick="openLightbox('images/poza3.jpeg')">
+        <img src="images/poza3.jpeg" alt="Omidă vie pe plante de roșii" />
+        <div class="gallery-caption">Viața mică din grădină</div>
+      </div>
+
+      <div class="gallery-item g-wide"
+           onclick="openLightbox('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1400&q=85')">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1400&q=80"
+             alt="Flori naturale în grădină" />
+        <div class="gallery-caption">Flori sălbatice și culori naturale</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── LIGHTBOX ──────────────────────────────────────────────── -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lb-close" onclick="closeLightbox()">×</div>
+    <img id="lbImg" src="" alt="Imagine mărită" />
+  </div>
+
+  <!-- ─── QUOTE ─────────────────────────────────────────────────── -->
+  <div class="quote-section">
+    <div class="quote-mark reveal">"</div>
+    <p class="quote-text reveal" style="transition-delay:0.1s">
+      Pământul nu minte niciodată. Semeni cu dragoste, culegi cu bucurie.
+    </p>
+    <div class="divider center light reveal" style="transition-delay:0.2s"></div>
+    <p class="quote-author reveal" style="transition-delay:0.25s">Din înțelepciunea grădinii noastre</p>
+  </div>
+
+  <!-- ─── CONTACT ───────────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="section-label reveal">Hai să vorbim</p>
+      <h2 class="section-title reveal" style="transition-delay:0.1s">Împărtășește <em>amintiri</em> cu noi</h2>
+      <div class="divider center reveal" style="transition-delay:0.15s"></div>
+      <p class="contact-intro reveal" style="transition-delay:0.2s">
+        Ai crescut cu o grădină care te-a format? Ai amintiri despre miros de pământ proaspăt sau
+        tomate coapte culese cu mâna ta? Scrie-ne — fiecare poveste din natură merită să fie auzită.
+        Te invităm să descoperi împreună cu noi lumea vie din grădină.
+      </p>
+
+      <form onsubmit="handleSubmit(event)" class="reveal" style="transition-delay:0.25s">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Prenume</label>
+            <input type="text" id="fname" placeholder="Maria" required />
+          </div>
+          <div class="form-group">
+            <label for="lname">Nume</label>
+            <input type="text" id="lname" placeholder="Ionescu" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="tu@exemplu.ro" required />
+        </div>
+        <div class="form-group">
+          <label for="msg">Mesajul tău</label>
+          <textarea id="msg"
+            placeholder="Povestește-ne despre grădina ta, amintiri din copilărie sau întrebări despre permacultură…"
+            required></textarea>
+        </div>
+        <button type="submit" class="btn-green">Trimite mesajul</button>
+      </form>
+
+      <div class="success-msg" id="successMsg">
+        🌿 Mulțumim frumos! Am primit mesajul tău și te vom contacta în curând.
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">Grădina <em>Noastră</em></div>
+    <div class="footer-note">Cu drag, din inima naturii · 2024</div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
